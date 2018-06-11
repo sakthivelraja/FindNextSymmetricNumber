@@ -66,6 +66,5 @@
     Public Function ReverseNumber(ByVal input As Integer) As Integer
         Dim newNumberString As New String(input.ToString.ToCharArray.Reverse().ToArray)
         Return Convert.ToInt64(newNumberString)
-
     End Function
 End Module
